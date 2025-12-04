@@ -1,0 +1,45 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "pack.description",
+        "name": "pack.name",
+        "uuid": "b3a8f9e3-4c2b-4a6e-9b2e-1d3f5a7c8e9f",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            110
+        ]
+    },
+    "modules": [
+        {
+            "description": "CFD[RP]",
+            "type": "resources",
+            "uuid": "d7c9a1b2-5e4f-4c3d-8a7b-2e9f1c3d5a6e",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "Luning39"
+        ]
+    },
+    "dependencies": [
+        {
+            "uuid": "e9f1c3d5-a6b7-4c2e-8a9f-1d3b5a7c4e2f",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

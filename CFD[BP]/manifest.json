@@ -1,0 +1,62 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "pack.description",
+        "name": "pack.name",
+        "uuid": "e9f1c3d5-a6b7-4c2e-8a9f-1d3b5a7c4e2f",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            110
+        ]
+    },
+    "modules": [
+        {
+            "description": "CFD[BP]",
+            "type": "data",
+            "uuid": "a7b5c3d9-e1f2-4a6e-9c8b-2d3f5a7c4e1f",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "description": "CFD_scripts",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "metadata": {
+        "product_type": "addon",
+        "authors": [
+            "Luning39"
+        ]
+    },
+    "dependencies": [
+        {
+            "uuid": "b3a8f9e3-4c2b-4a6e-9b2e-1d3f5a7c8e9f",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.0.0"
+        }
+    ]
+}
