@@ -1,0 +1,19 @@
+{
+  "include": [
+    "./typescripts/**/*"
+  ],
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "strict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "pretty": true,
+    // "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "./typescripts",
+    "outDir": "./CFD[BP]/scripts",
+    "removeComments": true
+  }
+}
