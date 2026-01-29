@@ -1,0 +1,43 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cfd:lantern",
+      "menu_category": {
+        "category": "construction",
+        "group": "blockGroup.cfd:lanterns"
+      },
+      "states": {
+        "cfd:is_lighting": [false, true]
+      }
+    },
+
+    "components": {
+      "cfd:is_lantern": {},
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cfd_lantern_off",
+          "render_method": "opaque"
+        }
+      },
+
+      "minecraft:light_emission": 0
+    },
+
+    "permutations": [
+      {
+        "condition": "query.block_state('cfd:is_lighting') == true",
+        "components": {
+          "minecraft:light_emission": 15,
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cfd_lantern_on",
+              "render_method": "opaque"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
