@@ -1,0 +1,14 @@
+{
+  "resource_pack_name": "MY_ADDON",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "cfd_lantern_off": {
+      "textures": "textures/blocks/demo/lantern_off"
+    },
+    "cfd_lantern_on": {
+      "textures": "textures/blocks/demo/lantern_on"
+    }
+  }
+}
